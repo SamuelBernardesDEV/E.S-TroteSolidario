@@ -1,0 +1,12 @@
+.section-1{
+    width: 100vw;
+    height: 480px;
+    z-index: 0;
+}
+
+.section-1 img{
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    height: auto;
+}
