@@ -8,10 +8,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     text-decoration: none;
+    transition: 0.3s ease;
 }
 
 body {
     min-height: 100vh;
+}
+
+a:hover {
+    opacity: 0.5;
 }
 
 .nav-bar {
@@ -19,7 +24,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 10%;
+    padding: 1.3rem 5%;
     background-color: var(--uniblue);
     display: flex;
     justify-content: space-between;
@@ -37,6 +42,8 @@ body {
 .nav-list li a {
     color: #fff;
     font-size: 1.15rem;
+    font-family: "Figtree",
+        sans-serif;
 }
 
 .nav-bar .logo {
@@ -44,6 +51,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: #fff;
+    font-family: "Archivo Black", sans-serif;
 }
 
 .icons {
@@ -61,13 +69,21 @@ body {
 
 /* BREAKPOINTS */
 
-@media (max-width: 992px) {
-    .nav-bar {
-        padding: 1.3rem 5%;
+@media (max-width: 1080px) {
+    .nav-list li a {
+        font-size: 1rem;
+    }
+
+    .nav-bar .logo{
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 992px) {
+    .nav-bar {
+        padding: 1.3rem 5%;
+    }
+
     .icons {
         display: inline-flex;
     }
@@ -92,19 +108,16 @@ body {
         height: 0;
         background: var(--uniblue);
         overflow: hidden;
-        transition: 0.3s ease;
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
     }
 
     .nav-bar ul {
         display: block;
-        transition: 0.3s ease;
     }
 
     .nav-list li {
         margin: 1.5rem 0;
         text-align: center;
-        transition: 0.3s ease;
     }
 
     .nav-list li a {
