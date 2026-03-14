@@ -1,6 +1,4 @@
-:root {
-    --uniblue: #344f8a;
-}
+@import "/css/variaveis.css";
 
 * {
     margin: 0;
@@ -15,8 +13,12 @@ body {
     min-height: 100vh;
 }
 
+a{
+    transition: 0.2s ease;
+}
 a:hover {
     opacity: 0.5;
+    font-weight: bold;
 }
 
 .nav-bar {
@@ -24,7 +26,7 @@ a:hover {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.3rem 5%;
+    padding: 1rem 5%;
     background-color: var(--uniblue);
     display: flex;
     justify-content: space-between;
@@ -36,7 +38,7 @@ a:hover {
 .nav-bar ul {
     list-style: none;
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
 }
 
 .nav-list li a {
@@ -69,13 +71,16 @@ a:hover {
 
 /* BREAKPOINTS */
 
+
+@media (max-width: 1125px) {
+    .nav-bar .logo {
+        font-size: 1.4rem;
+    }
+}
+
 @media (max-width: 1080px) {
     .nav-list li a {
         font-size: 1rem;
-    }
-
-    .nav-bar .logo{
-        font-size: 1.5rem;
     }
 }
 
