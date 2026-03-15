@@ -1,4 +1,4 @@
-@import "/css/variaveis.css"
+@import "/css/variaveis.css";
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.section-2{
+.section-2 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -15,9 +15,10 @@
     height: 100vh;
     z-index: 1;
     gap: 1rem;
+    margin-bottom: 15rem;
 }
 
-.sec-container{
+.sec-container {
     position: relative;
     bottom: 1.5rem;
     background-color: #fff;
@@ -33,13 +34,90 @@
     gap: 1.5rem;
 }
 
-.ind-title{
-    color: rgba(0, 0, 0, 0.3);
+.ind-title {
+    color: var(--uniblue);
     font-weight: normal;
     font-family: var(--titlefont);
+    text-align: center;
 }
 
-.ind-desc{
+.ind-desc {
     font-size: 1rem;
     font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.inf-card {
+    background-color: rgb(227, 237, 245);
+    height: auto;
+    width: 70%;
+    padding: 2rem;
+    border-radius: 15px;
+    border-left: 5px solid var(--uniblue);
+}
+
+.secd-container {
+    position: relative;
+    bottom: 1.5rem;
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.4), 0 1rem 1rem 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.inf-title {
+    color: var(--uniblue);
+    font-weight: normal;
+    font-family: var(--titlefont);
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.inf-desc {
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.green-desc {
+    background-color: rgba(192, 255, 208, 0.5);
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: rgb(6, 85, 52);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: start;
+}
+
+.sep-container {
+    position: relative;
+    bottom: 1.5rem;
+    background-color: #fff;
+    width: 70%;
+    height: auto;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.4), 0 1rem 1rem 0 rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.sep-container h2 {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 729px) {
+    .secd-container {
+        flex-direction: column;
+    }
 }
