@@ -1,4 +1,8 @@
 @import "/css/header.css";
 @import "/css/title-section.css";
 @import "/css/section-02.css";
-@import "/css/footer.css" 
+@import "/css/footer.css";
+
+html{
+    scroll-behavior: smooth;
+}

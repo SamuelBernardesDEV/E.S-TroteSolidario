@@ -15,7 +15,7 @@
     height: 100vh;
     z-index: 1;
     gap: 1rem;
-    margin-bottom: 15rem;
+    margin-bottom: 1rem;
 }
 
 .sec-container {
@@ -49,11 +49,21 @@
 
 .inf-card {
     background-color: rgb(227, 237, 245);
-    height: auto;
+    height: 90%;
     width: 70%;
     padding: 2rem;
     border-radius: 15px;
     border-left: 5px solid var(--uniblue);
+}
+
+.secd-container:hover{
+    margin: 0.5rem;
+}
+.sec-container:hover{
+    margin: 0.5rem;
+}
+.sep-container:hover{
+    margin: 0.5rem;
 }
 
 .secd-container {
