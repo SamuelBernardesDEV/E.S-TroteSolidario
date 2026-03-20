@@ -1,17 +1,5 @@
 @import "/css/variaveis.css";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
-
-body {
-    min-height: 100vh;
-}
+@import "/css/universal.css";
 
 a{
     transition: 0.2s ease;

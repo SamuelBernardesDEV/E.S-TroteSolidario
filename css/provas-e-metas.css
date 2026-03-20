@@ -1,0 +1,50 @@
+@import "/css/variaveis.css";
+@import "/css/universal.css";
+
+.item-list {
+    width: 100%;
+    height: auto;
+    background-color: rgb(250, 238, 206);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px dashed rgb(252, 211, 78);
+}
+
+.item-list li i {
+    color: rgb(103, 212, 0);
+    font-size: 1.5rem;
+}
+
+.item-list li {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(128, 98, 0);
+}
+
+.tg {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tg th {
+    background-color: var(--uniblue);
+    color: #fff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#blue-style{
+    background-color: #fff;
+    border-left: 7px solid var(--uniblue);
+}
