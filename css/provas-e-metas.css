@@ -44,7 +44,21 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
-#blue-style{
-    background-color: #fff;
-    border-left: 7px solid var(--uniblue);
+.p-blue {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: var(--unibluelight);
+}
+
+.p-green {
+    font-family: Arial, sans-serif;
+    color: rgb(46, 163, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-strong {
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
 }

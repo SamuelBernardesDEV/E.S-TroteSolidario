@@ -77,6 +77,11 @@ body{
     bottom: 2rem;
 }
 
+#blue-style {
+    background-color: #fff;
+    border-left: 7px solid var(--uniblue);
+}
+
 @media (max-width: 720px) {
     #card-row-flex {
         flex-direction: column;
