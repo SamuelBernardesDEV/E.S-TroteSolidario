@@ -1,0 +1,37 @@
+@import "/css/universal.css";
+@import "/css/variaveis.css";
+
+.timeline{
+    width: 100%;
+}
+
+.crom-div{
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.crom-div p{
+    font-family: Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.crom-div h2{
+    font-family: var(--titlefont);
+    font-weight: 400;
+    color: var(--uniblue);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+}
+
+.crom-div::before{
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: var(--uniblue);
+    border-radius: 50%;
+    position: absolute;
+    left: -1.5rem;
+    top: 0.5rem
+}
