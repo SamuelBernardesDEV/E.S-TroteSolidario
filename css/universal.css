@@ -78,8 +78,15 @@ footer{
 .card-subtitle {
     font-family: Arial, sans-serif;
     text-align: center;
+    
 }
 
+
+
+#yellow-style{
+    border-left: 5px solid goldenrod;
+    background-color: rgb(247, 244, 218);
+}
 
 #card-row-flex {
     flex-direction: row;
@@ -97,6 +104,10 @@ footer{
 
 #white-text{
     color: #fff;
+}
+
+#yellow-text{
+    color: goldenrod;
 }
 
 @media (max-width: 720px) {
