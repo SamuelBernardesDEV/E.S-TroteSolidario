@@ -39,6 +39,37 @@
             </ul>
         </nav>
     </header>
+    <main class="main">
+        <section class="card-container">
+            <h2 class="card-title"><i class="fa-solid fa-calculator"></i> Simulador de Pontos</h2>
+            <p class="card-subtitle">
+                Simule os seus pontos
+            </p>
+            <div class="inputs-container">
+                <div class="input-group">
+                    <label for="">Arroz (5Kg) - 10 pts</label>
+                    <input type="number" id="rice" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="">Feijão  (2Kg) - 8 pts</label>
+                    <input type="number" id="beans" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="">Arroz (5Kg)</label>
+                    <input type="number" id="rice" min="0">
+                </div>
+                <div class="input-group">
+                    <label for="">Arroz (5Kg)</label>
+                    <input type="number" id="rice" min="0">
+                </div>
+                <button onclick="calcularpts()">Calcular Total</button>
+            </div>
+            <div class="resultado">
+                Pontuação total:
+            </div>
+        </section>
+    </main>
+<script src="/script.js"></script>
 </body>
 
 </html>
