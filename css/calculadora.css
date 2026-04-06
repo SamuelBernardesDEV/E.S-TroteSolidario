@@ -73,3 +73,15 @@
     width: 100%;
     text-align: center;
 }
+
+.teams-select{
+    width: 50%;
+    height: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.teams-select option{
+    font-family: Arial, sans-serif;
+}
