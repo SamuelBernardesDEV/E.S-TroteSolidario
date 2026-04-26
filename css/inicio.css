@@ -4,11 +4,16 @@
 .title-section {
     background-color: var(--unibluelight);
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
+    position: relative;
+    top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("/images/Trote\ Solidário.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .title {
@@ -19,6 +24,7 @@
     margin: 3% auto;
     white-space: nowrap;
     letter-spacing: 2px;
+    text-shadow: 1px 3px 17px rgba(0, 0, 0, 0.76);
 }
 
 .subtitle {
@@ -26,6 +32,7 @@
     font-size: 2rem;
     font-family: "Caveat", cursive;
     letter-spacing: 2px;
+    text-shadow: 1px 3px 17px rgba(0, 0, 0, 0.76);
 }
 
 .info-card {
