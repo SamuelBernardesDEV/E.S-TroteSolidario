@@ -1,0 +1,68 @@
+@import "/css/universal.css";
+
+.equipes {
+    overflow: auto;
+    width: 100%;
+}
+
+.equipes table {
+    border: 1px solid #284177;
+    height: 100%;
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse !important;
+    border-spacing: 0px;
+    text-align: left;
+}
+
+.equipes th {
+    border: 1px solid #284177;
+    background-color: #344f8a;
+    color: #ffffff;
+    padding: 4px;
+    font-family: Arial, sans-serif;
+}
+
+.equipes td {
+    border: 1px solid #284177;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px;
+    font-family: Arial, sans-serif;
+}
+
+#comu-yellow {
+    background-color: #f1c232;
+}
+
+#psico-gray {
+    background-color: #999999;
+}
+
+#letas-orange {
+    background-color: #e69138;
+}
+
+#medicina-marrom {
+    background-color: #ad3700;
+}
+
+#eng-software-black {
+    background-color: #000000;
+}
+
+#contabeis-pink {
+    background-color: #ff99cc;
+}
+
+#eng-civil-purple {
+    background-color: #800080;
+}
+
+#ciencia-computacao-green {
+    background-color: #00cc00;
+}
+
+#admin-red {
+    background-color: #ff0000;
+}
